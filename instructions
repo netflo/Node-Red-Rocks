@@ -1,0 +1,23 @@
+
+videos:
+https://www.youtube.com/watch?v=SuoSXVqjyfc
+https://www.youtube.com/watch?v=4QfoXdcfqKI
+
+#install on PI via:
+https://nodered.org/docs/getting-started/raspberrypi
+needs npm installed
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+
+
+
+#Meraki play:
+https://developer.cisco.com/meraki/build/node-red-getting-started-with-cisco-meraki-apis/
+
+
+Autostart on boot
+If you want Node-RED to run when the Pi is turned on, or re-booted, you can enable the service to autostart by running the command:
+
+sudo systemctl enable nodered.service
+
+To disable the service, run the command:
+sudo systemctl disable nodered.service
